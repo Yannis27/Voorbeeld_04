@@ -1,0 +1,168 @@
+@keyframes transparancy {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+body {
+  /*background-color: rgb(140, 236, 208); */
+  background-image: url('https://images7.alphacoders.com/379/379370.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(236, 140, 168);
+}
+
+h1 {
+  font-family: 'Bungee Inline';
+  font-size: 70px;
+  font-weight: bold;
+  padding-top: 25px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'pacifico';
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 7px;
+  color: white;
+  margin: 7px;
+  text-shadow: 2px 2px rgb(236, 140, 168);
+}
+
+h2 {
+  font-family: 'Pacifico';
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 37px;
+  color: white;
+  text-shadow: 2px 2px rgb(236, 140, 168);
+}
+
+p {
+  font-family: 'Proza Libre', helvetica;
+  text-align: center;
+  font-size: 16px;
+  font-weight: light;
+  width: 450px;
+  margin: auto;
+  color: white;
+}
+
+a {
+  font-family: 'Bungee Inline';
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(236, 140, 168);
+  text-decoration: none;
+  padding: 15px;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+nav {
+  width: 390px;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+main {
+  width: 1539px;
+  margin: auto;
+}
+
+footer {
+  margin-bottom: 0;
+}
+
+.link {
+  font-family: 'Proza Libre', helvetica;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+.rotate {
+  animation: transparancy 1.5s infinite;
+}
+
+.blok {
+  background-color: rgba(17, 171, 182, .3);
+  border: 1px solid white;
+  border-radius: 30px;
+  width: 500px;
+  margin: auto;
+  margin-right: 10px; 
+  float: left;
+  padding-bottom: 20px;
+}
+
+form {
+  width: 352px;
+  margin: auto;
+}
+
+input {
+  width: 350px;
+  padding: 12px 20px;
+  margin-bottom: 5px;
+  border: 1px solid rgb(236, 140, 168);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 150px;
+    margin: auto;
+    background-color: rgb(236, 140, 168);
+    color: white;
+    padding: 14px 20px;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: hotpink;
+}
+
+@media (max-width: 1600px) {
+  .blok {
+    float: initial;
+    margin-bottom: 10px;
+  }
+  main {
+    width: 530px;
+  }
+  body {
+    background-size: inherit;
+  }
+}
+
+@media (max-width: 650px) {
+  .blok {
+    width: 300px;
+    margin: auto;
+  }
+  main {
+    width: 312px;
+  }
+  input {
+    width: 100px;
+  }
+  p {
+    width:inherit;
+  }
+}
+
+
+
+
